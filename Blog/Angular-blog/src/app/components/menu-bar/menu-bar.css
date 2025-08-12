@@ -1,5 +1,5 @@
 .container__menu-bar {
-    margin-top: 20px;
+    margin: 10px 0;
 }
 
 .menu-bar__list {
@@ -13,5 +13,5 @@
 }
 
 .menu-bar__list li a {
-    font-size: 24px;
+    font-size: 16px;
 }
