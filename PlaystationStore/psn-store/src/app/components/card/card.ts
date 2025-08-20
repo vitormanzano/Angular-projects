@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CardLabel } from './card-label/card-label';
 import { CardPricing } from './card-pricing/card-pricing';
 
@@ -9,5 +9,12 @@ import { CardPricing } from './card-pricing/card-pricing';
   styleUrl: './card.css'
 })
 export class Card {
-
+  @Input()
+  gameCover: string = "";
+  @Input()
+  gameLabel: string = "";
+  @Input()
+  gameType: string = "";
+  @Input()
+  gamePrice: string = "";
 }
